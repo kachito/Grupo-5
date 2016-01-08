@@ -118,7 +118,7 @@
                                                 <span>Únete a nuestra comunidad y forma parte de nuestra familia.</span><br>  
                                                 </p>
                                                 <br>
-                                                <a href="registro.html" class="home-button btn ">
+                                                <a href="contactenos.html" class="home-button btn ">
                                                     Regístrate
                                                 </a>
                                                 
