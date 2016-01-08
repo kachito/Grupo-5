@@ -54,7 +54,7 @@
           <!-- Video Background -->
         <video id="video_background" preload="auto" autoplay="autoplay" muted="muted" loop="loop"> 
                <source src="video/educacion.mp4" type="video/mp4" />
-                <source src="video/ecuador.webm" type="video/webm" />
+                
         </video> 
         <!-- / End Video Start Container -->       
         <div class="wow bounceIn" data-wow-delay="0.3s">
