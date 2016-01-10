@@ -54,7 +54,7 @@
           <!-- Video Background -->
         <video id="video_background" preload="auto" autoplay="autoplay" muted="muted" loop="loop"> 
                <source src="video/educacion.mp4" type="video/mp4" />
-                <source src="video/ecuador.webm" type="video/webm" />
+                
         </video> 
         <!-- / End Video Start Container -->       
         <div class="wow bounceIn" data-wow-delay="0.3s">
@@ -118,7 +118,7 @@
                                                 <span>Únete a nuestra comunidad y forma parte de nuestra familia.</span><br>  
                                                 </p>
                                                 <br>
-                                                <a href="registro.html" class="home-button btn ">
+                                                <a href="contactenos.html" class="home-button btn ">
                                                     Regístrate
                                                 </a>
                                                 
