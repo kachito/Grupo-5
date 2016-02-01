@@ -22,10 +22,10 @@ class Demo
        $this->email = $email;
      }
     
-     function setIdDemo($idDemo){
+     function setIdEstudiante($idEstudiante){
        $this->idEstudiante = $idEstudiante;
      } 
-     function getIdDemo(){
+     function getIdEstudiante(){
        return $this->idEstudiante;
      } 
      function setNombre($nombre){
