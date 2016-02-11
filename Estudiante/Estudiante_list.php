@@ -49,8 +49,8 @@ foreach ($EstudianteCollectorObj->showEstudiante() as $c){
      <td><?php echo $c->getemail() ?></td>
    
      <td><a href="../views/DocenteView.php">Nuevo</a></td>   
-     <td><a href="Docente_edit.php?id=<?php echo $c->getruc() ?>">Editar</a></td>
-     <td><a href="Docente_delete.php?id=<?php echo $c->getruc() ?>">Eliminar</a></td>
+     <td><a href="Estudiante_edit.php?id=<?php echo $c->getruc() ?>">Editar</a></td>
+     <td><a href="Estudiante_delete.php?id=<?php echo $c->getruc() ?>">Eliminar</a></td>
   </tr>
   </tbody> 
 <?php  
@@ -61,3 +61,4 @@ foreach ($EstudianteCollectorObj->showEstudiante() as $c){
 </div>
 </body>
 </html>
+m
