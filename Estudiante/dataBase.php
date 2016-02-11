@@ -16,7 +16,7 @@ class dataBase
     $this->isConnected = true;
 
     try { 
-      $this->datab = new PDO("pgsql:host={$host};dbname={$dbname}", $username, $password, $options);
+      $this->datab = new PDO("pgsql:host={$host};dbname={$dbname}", $username, $password,);
       $this->datab->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       $this->datab->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
     } 
