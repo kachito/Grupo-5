@@ -27,10 +27,10 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->       
     <link rel="shortcut icon" href="images/ico/bs1.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 
 <body class="homepage">
@@ -72,7 +72,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="images/logo2.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img src="../images/logo2.png" alt="logo"></a>
                 </div>
                 
                 <div class="collapse navbar-collapse navbar-right">
@@ -122,42 +122,49 @@
             <div class="row contact-wrap"> 
                 <div class="status alert alert-success" style="display: none"></div>
 
-                <form action= "Docente_insert.php" method="post" action="form-horizontal"> -->
+                <form action= "Docente_insert.php" method="post" action="form-horizontal"> 
                     <div class="col-sm-5 col-sm-offset-1">
                         <div class="form-group">
-                            <label>Name *</label>
-                            <input type="text" name="name" class="form-control" required="required">
+                            <label>Nombre *</label>
+                            <input type="text" name="nombre" class="form-control" required="required">
                         </div>
                         <div class="form-group">
-                            <label>Cédula *</label>
-                            <input type="email" name="email" class="form-control" required="required">
+                            <label>Apellido *</label>
+                            <input type="text" name="apellido" class="form-control" required="required">
                         </div>
                         <div class="form-group" >
                             <label>Edad *</label>
-                            <input type="number" class="form-control" required="required">
+                            <input type="number" name="edad" class="form-control" required="required">
                         </div>
                         <div class="form-group">
-                            <label>genero</label>
-                            <input type="text" class="form-control">
+                            <label>Cédula</label>
+                            <input type="text" name="cedula"class="form-control">
                         </div> 
                                                
                     </div>
                     <div class="col-sm-5">
+                        
                         <div class="form-group">
-                            <label>Apellido *</label>
-                            <input type="text" name="subject" class="form-control" required="required">
+                            <label >Genero</label>
+                            <select type="number" name="genero">
+                            <option value="1" required="required">Masculino</option>
+                            <option value="0" required="required">Femenino</option>
+                            </select>
+
                         </div>
+
                         <div class="form-group">
                             <label>Dirigencia *</label>
-                            <input type="text" name="subject" class="form-control" required="required">
+                            <input type="text" name="dirigencia" class="form-control" required="required">
                         </div>
                         <div class="form-group">
-                            <label>Materias *</label>
-                            <input type="text" name="subject" class="form-control" required="required">
+                            <label>Cargo*</label>
+                            <input type="text" name="cargo" class="form-control" required="required">
                         </div>
                         <div class="form-group">
-                            <label>e-mail *</label>
-                            <input type="text" name="subject" class="form-control" required="required">
+                            <label>Email *</label>  
+                            <input type="email" name="email" class="form-control" required="required">
+                            
                         </div>                        
                         
                     </div>
@@ -231,11 +238,11 @@
         </div>
     </footer><!--/#footer-->
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.prettyPhoto.js"></script>
+    <script src="../js/jquery.isotope.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/wow.min.js"></script>
 </body>
 </html>

@@ -3,17 +3,18 @@
  include_once('DocenteCollector.php');
  //$id = $_POST['ID'];
  
- $id_profesor = $_POST['txtid_profesor'];
- $nombre = $_POST['txtnombre'];
- $apellido = $_POST['txtapellido'];
- $edad = $_POST['txtedad'];
- $cedula = $_POST['txtcedula'];
- $genero = $_POST['txtgenero'];
- $cargo = $_POST['txtcargo'];
- $email = $_POST['txtemail']
+ 
+ $nombre = $_POST['nombre'];
+ $apellido = $_POST['apellido'];
+ $edad = $_POST['edad'];
+ $cedula = $_POST['cedula'];
+ $genero = $_POST['genero'];
+ $dirigencia = $_POST['dirigencia'];
+ $cargo = $_POST['cargo'];
+ $email = $_POST['email'];
  
  $DocenteCollectorObj = new DocenteCollector();
- $DocenteCollectorObj->insertDocente($id_profesor,$nombre,$apellido,$edad,$cedula,$genero,$cargo,$email);
+ $DocenteCollectorObj->insertDocente($nombre,$apellido,(int)$edad,(int)$cedula,(int)$genero,$dirigencia,$cargo,$email);
 
 ?>
 <!doctype html>

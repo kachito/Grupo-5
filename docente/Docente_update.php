@@ -3,19 +3,20 @@ session_start();
  include_once('DocenteCollector.php');
  //include_once('Docente.php');
 
- $id_profesor = $_POST['txtid_profesor'];
- $nombre = $_POST['txtnombre'];
- $apellido = $_POST['txtapellido'];
- $edad = $_POST['txtedad'];
- $cedula = $_POST['txtcedula'];
- $genero = $_POST['txtgenero'];
- $cargo = $_POST['txtcargo'];
- $email = $_POST['txtemail'];
+ $id_profesor = $_POST['id_profesor'];
+ $nombre = $_POST['nombre'];
+ $apellido = $_POST['apellido'];
+ $edad = $_POST['edad'];
+ $cedula = $_POST['cedula'];
+ $genero = $_POST['genero'];
+ $dirigencia = $_POST['dirigencia'];
+ $cargo = $_POST['cargo'];
+ $email = $_POST['email'];
 
 //echo  $cargo;		
 
  $DocenteCollectorObj = new DocenteCollector();
- $DocenteCollectorObj->updateDocente($id_profesor,$nombre,$apellido,$edad,$cedula,$genero,$cargo,$email);
+ $DocenteCollectorObj->updateDocente($id_profesor,$nombre,$apellido,(int)$edad,(int)$cedula,(int)$genero,$dirigencia,$cargo,$email);
 
 ?>
 <!doctype html>

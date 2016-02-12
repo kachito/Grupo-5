@@ -8,17 +8,19 @@ class Docente
     private $edad;
     private $cedula;	
     private $genero;
+    private $dirigencia;
     private $cargo;
     private $email;
 
  
-    function __construct($id_profesor, $nombre,$apellido,$edad,$cedula,$genero,$cargo,$email) {
+    function __construct($id_profesor, $nombre,$apellido,$edad,$cedula,$genero,$dirigencia,$cargo,$email) {
        $this->id_profesor = $id_profesor;
        $this->nombre = $nombre;
        $this->apellido = $apellido;
        $this->edad = $edad;
        $this->cedula = $cedula;
        $this->genero = $genero;
+       $this->dirigencia = $dirigencia;
        $this->cargo = $cargo;
        $this->email = $email;
       
@@ -74,6 +76,15 @@ class Docente
      function getgenero(){
        return $this->genero;
      } 
+
+  function setdirigencia($dirigencia){
+       $this->dirigencia = $dirigencia;
+     } 
+
+     function getdirigencia(){
+       return $this->dirigencia;
+     }
+
 
    function setcargo($cargo){
        $this->cargo = $cargo;

@@ -33,7 +33,6 @@ CREATE  TABLE Profesor_Curso(
 CREATE  TABLE Profesor(
 	id_profesor int not null,
 	
-	
 	nombre varchar(50) default null,
 	
 	apellido varchar(50) default null,
@@ -238,8 +237,6 @@ Alter table Profesor_Estudiante add constraint fk_id_estudiante foreign key(id_e
 Alter table Profesor_Materia add constraint fk_id_materia foreign key(id_materia) references Materia(id_materia) on delete cascade on update cascade;
 
 Alter table Profesor_Materia add constraint fk_id_profesor foreign key(id_profesor) references Profesor(id_profesor) on delete cascade on update cascade;
-
-ALTER TABLE profesor ALTER COLUMN id_profesor SET DEFAULT nextval('profesor_id_profesor_seq'::regclass);
 
 Alter table Estudiante_Materia add constraint fk_id_materia foreign key(id_materia) references Materia(id_materia) on delete cascade on update cascade;
 
