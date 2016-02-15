@@ -111,7 +111,7 @@ session_start();
                         <li><a href="../notas/form_notas.php" >Calificaciones</a></li>  
 
 
-                        <li><a href="../costruccion.html" class="dropdown-toggle" data-toggle="dropdown">Planificaciones <i class="fa fa-angle-down"></i></a>
+                        <li><a href="../costruccion.php" class="dropdown-toggle" data-toggle="dropdown">Planificaciones <i class="fa fa-angle-down"></i></a>
                              <ul class="dropdown-menu">
                                 <li><a href="docente/form_docente.php">Docente</a></li>                                
                                <!-- <li><a href="construccion.html">Alumnos</a></li> -->
