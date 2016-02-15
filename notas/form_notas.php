@@ -26,7 +26,7 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/bs1.ico">
+    <link rel="shortcut icon" href="../images/ico/bs1.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/ico/apple-touch-icon-72-precomposed.png">
@@ -63,7 +63,7 @@
             </div><!--/.container-->
         </div><!--/.top-bar-->
 
-        <nav class="navbar navbar-inverse" role="banner">
+        <nav class="navbar navbar-inverse">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -72,38 +72,71 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="../images/logo2.png" alt="logo"></a>
+                    <a class="navbar-brand" href="../index.php"><img src="../images/logo2.png" alt="logo"></a>
                 </div>
                 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="home.html">Home</a></li>
-                        <li><a href="about-us - copia.html">About Us</a></li>
+                        <li class="active"><a href="../home.php">Home</a></li>
+                        <li><a href="../about-us.php">About Us</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Diario Virtual <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="construccion.html">Diario</a></li>                                
-                                <li><a href="horario.html">Horario de Clases</a></li>
-                                <li><a href="construccion.html">Horario de Examenes</a></li>
-                            </ul>
+                                 <ul class="dropdown-menu">
+                                    <li><a href="../Actividad_list.php">Diario</a></li>
+                                    <li><a href="../horario.php">Horario de Clases</a></li>
+                                    
+                                </ul>
+
+
+                           <!---doc     <ul class="dropdown-menu">
+                                <li><a href="construccion.php">Diario</a></li>                                
+                                <li><a href="horario.php">Horario de Clases</a></li>
+                                <li><a href="construccion.php">Horario de Examenes</a></li>
+                            </ul>-->
                         </li>
-                        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Asignaturas <i class="fa fa-angle-down"></i></a>
+                        <li><a href="../costruccion.htl" class="dropdown-toggle" data-toggle="dropdown">Asignaturas <i class="fa fa-angle-down"></i></a>
+
+
+
                             <ul class="dropdown-menu">
-                                <li><a href="materias.html">Materia</a></li>                                
-                                <li><a href="construccion.html">Cuestionarios</a></li>
-                                <li><a href="construccion.html">Otros...</a></li>
+                                <li><a href="../materias.php">Materia</a></li>                                
+                            
                             </ul>
-                        </li>    
+
+
+
+                            <!-- <ul class="dropdown-menu">
+                                <li><a href="materias.php">Materia</a></li>                                
+                                <li><a href="construccion.php">Cuestionarios</a></li>
+                                <li><a href="construccion.html">Otros...</a></li>
+                            </ul>-->
+                        </li>   
+
+                        <li><a href="../notas/form_notas.php" >Calificaciones</a></li>  
+
+
+                        <li><a href="../costruccion.html" class="dropdown-toggle" data-toggle="dropdown">Planificaciones <i class="fa fa-angle-down"></i></a>
+                             <ul class="dropdown-menu">
+                                <li><a href="docente/form_docente.php">Docente</a></li>                                
+                               <!-- <li><a href="construccion.html">Alumnos</a></li> -->
+                               <li><a href="../form_Actividad.php">Actividades</a></li>
+                               <li><a href="../curso1/form_Curso.php">Cursos</a></li>
+                               <li><a href="../notas/form_notas.php">Notas</a></li>
+                            </ul>
+                        </li> 
                            <!-- target="info"-->
-                        <li><a href="construccion.html" >Calificaciones</a></li>                        
-                        <li><a href="construccion.html">Planificaciones</a></li> 
-                        <li><a href="contactenos.html">Contactenos</a></li>                        
+                        
+
+                       
+                        <li><a href="../contactenos.php">Contactenos</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->
         </nav><!--/nav-->
         
     </header><!--/header-->
+
+
 
 
 <!--/************************* IFRAME centro *************************************************************
@@ -176,34 +209,30 @@
 
 
 <!--/************************* Foot **************************************************************-->
-    <section id="bottom">
+     <section id="bottom">
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
             <div class="row">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-5 col-sm-6">
                     <div class="widget">
-                        <h3><a href="#">Actividades académicas</a></h3>
+                        <h3><a href="../Actividad_list.php">Actividades académicas</a></h3>
                     </div>    
                 </div><!--/.col-md-3-->
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-5 col-sm-6">
                     <div class="widget">
-                       <h3><a href="#">Calendario académico</a></h3>
+                       <h3><a href="../horario.php"> Horarios de Clases</a></h3>
                      
                     </div>    
                 </div><!--/.col-md-3-->
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-2 col-sm-6">
                     <div class="widget">
-                        <h3><a href="#">Nuevos cursos</a></h3>
+                        <h3><a href="../curso1/Curso_list.php">Cursos</a></h3>
                     
                     </div>    
                 </div><!--/.col-md-3-->
 
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3><a href="#">Anuncios de profesores</a></h3>
-                
-                    </div>    
+                 
                 </div><!--/.col-md-3-->
             </div>
         </div>
@@ -219,10 +248,9 @@
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="../home.php">Home</a></li>
+                        <li><a href="../about-us.php">About Us</a></li>                        
+                        <li><a href="../contactenos.php">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
