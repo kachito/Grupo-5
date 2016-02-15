@@ -88,7 +88,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Diario Virtual <i class="fa fa-angle-down"></i></a>
                                  <ul class="dropdown-menu">
-                                    <li><a href="Actividad_list.php">Diario</a></li>
+                                    <li><a href="../Actividad_list.php">Diario</a></li>
                                     <li><a href="../horario.php">Horario de Clases</a></li>
                                     
                                 </ul>
@@ -141,7 +141,6 @@
         </nav><!--/nav-->
         
     </header><!--/header-->
-
 
 <!--/************************* IFRAME centro *************************************************************
     <section id="main-slider" class="no-margin">
@@ -218,7 +217,7 @@
 
 
 <!--/************************* Foot **************************************************************-->
-  <section id="bottom">
+     <section id="bottom">
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
             <div class="row">
                 <div class="col-md-5 col-sm-6">
