@@ -78,27 +78,26 @@ include_once("ActividadCollector.php");
                 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="home.html">Home</a></li>
-                        <li><a href="about-us - copia.html">About Us</a></li>
+                        <li class="active"><a href="../home.html">Home</a></li>
+                        <li><a href="../about-us.html">About Us</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Diario Virtual <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="construccion.html">Diario</a></li>                                
-                                <li><a href="horario.html">Horario de Clases</a></li>
-                                <li><a href="construccion.html">Horario de Examenes</a></li>
-                            </ul>
+                                <li><a href="../construccion.html">Diario</a></li>                                
+                                <li><a href="../horario.html">Horario de Clases</a></li>
+                             </ul>
                         </li>
                         <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Asignaturas <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="materias.html">Materia</a></li>                                
-                                <li><a href="construccion.html">Cuestionarios</a></li>
-                                <li><a href="construccion.html">Otros...</a></li>
+                                <li><a href="../materias.html">Materia</a></li>                                
+                                <li><a href="../construccion.html">Cuestionarios</a></li>
+                                <li><a href="../construccion.html">Otros...</a></li>
                             </ul>
                         </li>    
                            <!-- target="info"-->
-                        <li><a href="construccion.html" >Calificaciones</a></li>                        
-                        <li><a href="construccion.html">Planificaciones</a></li> 
-                        <li><a href="contactenos.html">Contactenos</a></li>                        
+                        <li><a href="../construccion.html" >Calificaciones</a></li>                        
+                        <li><a href="../construccion.html">Planificaciones</a></li> 
+                        <li><a href="../contactenos.html">Contactenos</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->
