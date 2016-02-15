@@ -4,10 +4,10 @@
   $id = $_GET['id'];
 
  // echo $id;
- include_once('Curso.php');
- include_once('CursoCollector.php');
- $CursoCollectorObj = new CursoCollector();
- $ObjCurso = $CursoCollectorObj->showCursoId($id);
+ include_once('Actividad.php');
+ include_once('ActividadCollector.php');
+ $ActividadCollectorObj = new ActividadCollector();
+ $ObjActividad = $ActividadCollectorObj->showActividadId($id);
  //print_r($ObjTransportista);
 ?>
 
@@ -125,8 +125,8 @@
                              <ul class="dropdown-menu">
                                 <li><a href="../docente/form_docente.php">Docente</a></li>                                
                                <!-- <li><a href="construccion.html">Alumnos</a></li> -->
-                               <li><a href="../form_Actividad.php">Actividades</a></li>
-                               <li><a href="curso1/form_Curso.php">Cursos</a></li>
+                               <li><a href="form_Actividad.php">Actividades</a></li>
+                               <li><a href="../curso1/form_Curso.php">Cursos</a></li>
                                <li><a href="../notas/form_notas.php">Notas</a></li>
                             </ul>
                         </li> 
@@ -143,6 +143,9 @@
     </header><!--/header-->
 
 
+
+
+
 <!--/************************* IFRAME centro *************************************************************
     <section id="main-slider" class="no-margin">
       <div class="item">       
@@ -156,16 +159,16 @@
                 <br>
                 <br>        
                 
-                <h2>Cursos</h2>
+                <h2>Actividades</h2>
                 <p class="lead">B-Smart</p>
             </div> 
             <div class="row contact-wrap"> 
                 <div class="status alert alert-success" style="display: none"></div>
 
-                <form action= "Curso_update.php" method="post" action="form-horizontal"> 
+                <form action= "Actividad_update.php" method="post" action="form-horizontal"> 
                     
                     <div class="col-sm-8 col-sm-offset-4"  >                            
-                        <input type="number" name="id_curso" style="visibility:hidden" readonly value = "<?php echo $ObjCurso->getid_curso(); ?>" >
+                        <input type="number" name="id_actividad" style="visibility:hidden" readonly value = "<?php echo $ObjActividad->getid_actividad(); ?>" >
                     </div>
 
                         <br>
@@ -173,18 +176,12 @@
                     <div class="col-sm-5 col-sm-offset-1">
                        
                         <div class="form-group">
-                            <label>Curso *</label>
-                            <input type="text" name="nombre" class="form-control" required="required" value = "<?php echo $ObjCurso->getnombre(); ?>">
+                            <label>Nombre *</label>
+                            <input type="text" name="nombre" class="form-control" required="required" value = "<?php echo $ObjActividad->getnombre(); ?>">
                         </div>
-
-                        <div class="form-group">
-                            <label>Paralelo *</label>
-                            <input type="text" name="nombre_curso" class="form-control" required="required" value = "<?php echo $ObjCurso->getnombre_nombre(); ?>">
-                        </div>
-
                         <div class="form-group">
                             <label>Descripción *</label>
-                            <input type="text" name="descripcion" class="form-control" required="required" value = "<?php echo $ObjCurso->getdescripcion(); ?>">
+                            <input type="text" name="descripcion" class="form-control" required="required" value = "<?php echo $ObjActividad->getdescripcion(); ?>">
                         </div>                                              
                                                
                     </div>
@@ -198,7 +195,10 @@
                             </select>
 
                         </div>                        
-                                                                    
+                        <div class="form-group">
+                            <label>Fecha *</label>
+                            <input type="date" name="fecha" class="form-control" required="required" value = "<?php echo $ObjActividad->getfecha(); ?>">
+                        </div>                                             
                         
                     </div>
 
@@ -218,7 +218,7 @@
 
 
 <!--/************************* Foot **************************************************************-->
-  <section id="bottom">
+   <section id="bottom">
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
             <div class="row">
                 <div class="col-md-5 col-sm-6">
@@ -236,7 +236,7 @@
 
                 <div class="col-md-2 col-sm-6">
                     <div class="widget">
-                        <h3><a href="curso1/Curso_list.php">Cursos</a></h3>
+                        <h3><a href="../curso1/Curso_list.php">Cursos</a></h3>
                     
                     </div>    
                 </div><!--/.col-md-3-->
