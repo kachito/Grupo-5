@@ -43,7 +43,7 @@ class NotasCollector extends Collector
   }
 
   function insertNotas($anio,$nota1,$nota2,$nota3,$nota4,$promedio,$recuperacion) {
-    $new_row = self::$db->getRow("Insert into nota (anio,nota1,nota2,nota3,nota4,promedio,recuperacion) values ('$anio','$nota1','$nota2','$nota3','$nota4','$promedio','$recuperacion'");
+    $new_row = self::$db->getRow("Insert into nota (anio,nota1,nota2,nota3,nota4,promedio,recuperacion) values ('$anio','$nota1','$nota2','$nota3','$nota4','$promedio','$recuperacion')");
  return 1;               
   }
 
