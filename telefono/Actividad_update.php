@@ -1,19 +1,18 @@
 <?php
 session_start();
- include_once('CursoCollector.php');
+ include_once('ActividadCollector.php');
  //include_once('Docente.php');
 
- $id_curso = $_POST['id_curso'];
+ $id_actividad = $_POST['id_actividad'];
  $nombre = $_POST['nombre'];
- $nombre_curso = $_POST['nombre_curso'];
  $descripcion = $_POST['descripcion'];
  $estado = $_POST['estado'];
- 
+ $fecha = $_POST['fecha'];
 
 //echo  $cargo;		
 
- $CursoCollectorObj = new CursoCollector();
- $CursoCollectorObj->updateCurso($id_curso, $nombre, $nombre_curso, $descripcion, $estado);
+ $ActividadCollectorObj = new ActividadCollector();
+ $ActividadCollectorObj->updateActividad($id_actividad, $nombre, $descripcion, $estado, $fecha);
 
 ?>
 <!doctype html>
@@ -29,7 +28,7 @@ session_start();
    </head>
 <body>
   
-      <form action="Curso_list.php" method="Post">
+      <form action="Actividad_list.php" method="Post">
          <div>
          <input type="submit" class="btn btn-primary" name="Regresar al inicio" value="Retornar">
          </div>
