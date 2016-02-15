@@ -69,7 +69,7 @@ session_start();
                     <h1>El conocimiento es poder. <br>  ¡Ármate!</h1>
                     <p class="slogan"><mark class="gray">  B-Smart </mark></p>
                     </div>
-                    <a class="home-button page-scroll" href="home.html" target="_top">EMPECEMOS</a>
+                    <a class="home-button page-scroll" href="home.php" target="_top">EMPECEMOS</a>
                     <a class="home-button" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="fa fa-star"></i> LOGIN</a>
 
                     <!-- VENTANA MODAL PARA LOGIN -->
