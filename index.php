@@ -1,3 +1,8 @@
+<?php
+session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -84,46 +89,31 @@
                                   </div>
                                     <div class="container">
                                       <div class="row fondo-login">
-                                        <div class="col-md-6 space-right-20 linea">
+                                        <div class="col-md-3 space-right-2 linea">
                                             <section class="login element-emphasis-strong">
                                                 <h3 class="strong-header large-header">
                                                     Identifícate
                                                 </h3>
-                                                <form role="form" action="php/Sesion.php" method="post" novalidate="">
+
+                                            
+                                                <form action="login/datos.php" method="post" >
                                                     <div class="form-group">
-                                                        <label for="email">Usuario</label>
-                                                        <input type="email" name="email" class="form-control" id="email" required="">
+                                                        <label type="text">Usuario</label>
+                                                        <input type="text" name="usuario" >
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="password">Contraseña</label>
-                                                        <input type="password" name="password" class="form-control" id="password" required="">
+                                                        <input type="password" name="pasw" >
                                                     </div>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                          <input type="checkbox"> Recordarme
-                                                        </label>
-                                                      </div>
-                                                    <a title="submit" id="iniciar_sesion" class="home-button btn"> Iniciar Sesión </a>
-                                                    <a href="#" class="btn btn-link pull-right">Olvidé mi Contraseña</a>
+                                                    
+                                                    <p><button type="submit">Iniciar Sesion</button></p>
                                                     <div class="clearfix"></div>
                                                 </form>
+                                         
+
                                             </section>
                                         </div>
-                                        <div class="col-md-6 space-left-20">
-                                            <section class="element-emphasis-weak">
-                                                <h3 class="strong-header">
-                                                    Regístrate
-                                                </h3>
-                                                <p><span>Aún no eres miembro de Servitickets.</span><br>
-                                                <span>Únete a nuestra comunidad y forma parte de nuestra familia.</span><br>  
-                                                </p>
-                                                <br>
-                                                <a href="contactenos.html" class="home-button btn ">
-                                                    Regístrate
-                                                </a>
-                                                
-                                            </section>
-                                        </div>
+                                        
                                       </div>
                                     </div>
                                 </section>
