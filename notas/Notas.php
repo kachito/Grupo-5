@@ -16,13 +16,12 @@ class Notas
        $this->id_nota = $id_nota;
        $this->anio = $anio;
        $this->nota1 = $nota1;
-       $this->edad = $edad;
-       $this->cedula = $cedula;
-       $this->genero = $genero;
-       $this->dirigencia = $dirigencia;
-       $this->cargo = $cargo;
-       $this->email = $email;
-      
+       $this->nota2 = $nota2;
+       $this->nota3 = $nota3;
+       $this->nota4 = $nota4;
+       $this->promedio = $promedio;
+       $this->recuperacion = $recuperacion;
+       
 
      }
 
