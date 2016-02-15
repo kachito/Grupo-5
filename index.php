@@ -18,8 +18,7 @@ session_start();
     <meta name="keywords" content="ESPOL, B-Smart">
     <meta name="author" content="Grupo 4"/>
     <meta name="robots" content="index, follow">
-    
-    <link rel="shortcut icon" href="favicon.png">
+
 
     <title>B-Smart</title>
 
