@@ -15,6 +15,13 @@ class SesionCollector extends Collector
 		}
 		return $arraySesion;
 	}
+	
+	function insertSesion($id_sesion, $usuario, $pasw) {
+    $new_row = self::$db->getRow("Insert into sesion (id_sesion, usuario, pasw) values ('$id_sesion','$usuario','$pasw')");
+ 	return 1;               
+  }
+	
+	
 }
 
 
