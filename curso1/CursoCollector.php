@@ -34,7 +34,7 @@ function showCurso() {
   function updateCurso($id_curso, $nombre, $nombre_curso, $descripcion, $estado) {
   
   //echo $cargo;
-    $update = self::$db->getRow("Update curso set nombre='$nombre', nombre_curso='$nombre_curso,'descripcion='$descripcion',estado='$estado', where id_curso='$id_curso')");             
+    $update = self::$db->getRow("Update curso set nombre='$nombre', nombre_curso='$nombre_curso,'descripcion='$descripcion',estado='$estado', where id_curso='$id_curso'");             
  return 1;  
   }
 
