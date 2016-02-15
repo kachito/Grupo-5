@@ -178,7 +178,7 @@
 
                         <div class="form-group">
                             <label>Paralelo *</label>
-                            <input type="text" name="nombre_curso" class="form-control" required="required" value = "<?php echo $ObjCurso->getnombre_nombre(); ?>">
+                            <input type="text" name="nombre_curso" class="form-control" required="required" value = "<?php echo $ObjCurso->getnombre_curso(); ?>">
                         </div>
 
                         <div class="form-group">
@@ -190,7 +190,7 @@
                     <div class="col-sm-5">
                         <div class="form-group">
                             <label >Estado</label>
-                            <select type="text" name="estado" value = "<?php echo $ObjActividad->getestado(); ?>">
+                            <select type="text" name="estado" value = "<?php echo $ObjCurso->getestado(); ?>">
                                 <option value="Pendiente" required="required">Pendiente</option>
                                 <option value="Activo" required="required">Activo</option>
                                 <option value="Cancelado" required="required">Cancelado</option>
