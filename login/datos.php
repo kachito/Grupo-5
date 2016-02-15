@@ -82,7 +82,7 @@ include_once("SesionCollector.php");
                                         
                                         $bandera=1;
                                         ?>
-                                         <a class="home-button" href="../home.html" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="fa fa-star"></i> EMPECEMOS</a>
+                                         <a class="home-button" href="../home.php" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="fa fa-star"></i> EMPECEMOS</a>
                                         <?php
                                     }
                                     

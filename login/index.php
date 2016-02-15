@@ -78,7 +78,7 @@ include_once("SesionCollector.php");
                                 foreach ($SesionCollectorObj->showSesion() as $c) {
                                     if($c->getusuario()==$usuario_form && $c->getpasw()==$pasw_form){
                                         echo "<h1> sesion iniciada con: </h1>" . $usuario_form;
-                                        echo "<a href='../home.html'>Ir al Home</a>";
+                                        echo "<a href='../home.php'>Ir al Home</a>";
                                         $bandera=1;
                                     }
                                     
@@ -95,7 +95,7 @@ include_once("SesionCollector.php");
                             ?>
                     
                     </div>
-                    <a class="home-button page-scroll" href="home.html" target="_top">EMPECEMOS</a>
+                    <a class="home-button page-scroll" href="home.php" target="_top">EMPECEMOS</a>
                     <a class="home-button" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="fa fa-star"></i> LOGIN</a>
 
                     <!-- VENTANA MODAL PARA LOGIN -->
