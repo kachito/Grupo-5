@@ -26,14 +26,77 @@
     <!-- Estilos CSS vinculados -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
      
-   <h3>Ingresado Exitosamente</h3>
+
    </head>
 <body>
   
-      <form action="Docente_list.php" method="Post">
-         <div>
-         <input type="submit" class="btn btn-primary" name="Regresar al inicio" value="Retornar">
-         </div>
+      <!--/************************* IFRAME centro **************************************************************-->
+
+
+    <div class="section">
+            <div class="container">
+                        
+                <div class="row object-non-visible" data-animation-effect="fadeIn">
+                    <div class="col-md-12">
+
+                        
+                        <!-- isotope filters end -->
+
+
+                        <div class="modal-content">
+                                            
+                                            <div class="modal-body">
+                                                <div class="item">
+
+                                                <div id="about-slider">
+                                                            <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+                                                                <!-- Indicators -->
+                                                                
+
+                                                                <div class="carousel-inner">
+                                                                    <div class="col-md-8 col-sm-6">
+                                                                        <img src="../images/slider/insertar.jpg" class="img-responsive" alt="horario"> 
+                                                                   
+                                                                   </div>
+                                                                   
+                                                                    <div class="col-md-4 col-sm-6" >
+                                                                    
+                                                                    <br>
+                                                                    <br>
+                                                                    <br>
+                                                                    <br>
+                                                                    
+                                                                    <br>
+                                                                    <br>
+                                                                    <br>
+                                                                    
+                                                                        <h2>Ingresado Exitosamente</h2>
+                                                                   </div>
+
+                                                                </div>
+                                                                                                                              
+                                                            </div> <!--/#carousel-slider-->
+                                                        </div>                                            
+                                                         
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="Docente_list.php" >   <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Retornar</button> </a>
+                                            </div>
+                                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+<!--/************************* IFRAME centro **************************************************************-->
 
       </form>
    </body>
