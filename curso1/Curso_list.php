@@ -83,7 +83,7 @@ include_once("CursoCollector.php");
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Diario Virtual <i class="fa fa-angle-down"></i></a>
                                  <ul class="dropdown-menu">
-                                    <li><a href="../Actividad_list.php">Diario</a></li>
+                                    <li><a href="../actividades/Actividad_list.php">Diario</a></li>
                                     <li><a href="../horario.php">Horario de Clases</a></li>
                                     
                                 </ul>
@@ -100,7 +100,7 @@ include_once("CursoCollector.php");
 
 
                             <ul class="dropdown-menu">
-                                <li><a href="../materias.php">Materia</a></li>                                
+                                <li><a href="../construccion.php">Materia</a></li>                                
                             
                             </ul>
 
@@ -118,10 +118,10 @@ include_once("CursoCollector.php");
 
                         <li><a href="../costruccion.html" class="dropdown-toggle" data-toggle="dropdown">Planificaciones <i class="fa fa-angle-down"></i></a>
                              <ul class="dropdown-menu">
-                                <li><a href="docente/form_docente.php">Docente</a></li>                                
+                                <li><a href="../docente/form_docente.php">Docente</a></li>                                
                                <!-- <li><a href="construccion.html">Alumnos</a></li> -->
-                               <li><a href="../form_Actividad.php">Actividades</a></li>
-                               <li><a href="../curso1/form_Curso.php">Cursos</a></li>
+                               <li><a href="../actividades/form_Actividad.php">Actividades</a></li>
+                               <li><a href="form_Curso.php">Cursos</a></li>
                                <li><a href="../notas/form_notas.php">Notas</a></li>
                             </ul>
                         </li> 
@@ -204,7 +204,7 @@ include_once("CursoCollector.php");
             <div class="row">
                 <div class="col-md-5 col-sm-6">
                     <div class="widget">
-                        <h3><a href="../Actividad_list.php">Actividades académicas</a></h3>
+                        <h3><a href="../actividades/Actividad_list.php">Actividades académicas</a></h3>
                     </div>    
                 </div><!--/.col-md-3-->
 
@@ -217,7 +217,7 @@ include_once("CursoCollector.php");
 
                 <div class="col-md-2 col-sm-6">
                     <div class="widget">
-                        <h3><a href="../curso1/Curso_list.php">Cursos</a></h3>
+                        <h3><a href="Curso_list.php">Cursos</a></h3>
                     
                     </div>    
                 </div><!--/.col-md-3-->
