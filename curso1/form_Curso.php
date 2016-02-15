@@ -116,7 +116,7 @@
 <section id="contact-page">
         <div class="container">
             <div class="center">        
-                <h2>Actividades</h2>
+                <h2>Cursos</h2>
                 <p class="lead">B-Smart</p>
             </div> 
             <div class="row contact-wrap"> 
