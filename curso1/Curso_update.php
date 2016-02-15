@@ -1,19 +1,14 @@
 <?php
 session_start();
  include_once('CursoCollector.php');
- //include_once('Docente.php');
-
  $id_curso = $_POST['id_curso'];
  $nombre = $_POST['nombre'];
   $nombre_curso = $_POST['nombre_curso'];
  $descripcion = $_POST['descripcion'];
  $estado = $_POST['estado'];
-
-//echo  $cargo;		
-
+ 
  $CursoCollectorObj = new CursoCollector();
- $CursoCollectorObj->updateCurso($id_curso, $nombre, $nombre_curso, $descripcion, $estado);
-
+ $CursoCollectorObj->updateCurso((int)$id_curso, $nombre, $nombre_curso, $descripcion, $estado);
 ?>
 <!doctype html>
 <html lang="es">
