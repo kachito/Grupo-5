@@ -38,7 +38,7 @@ class NotasCollector extends Collector
 
   function deleteNotas($id) {
 
- $delete = self::$db->getRow("Delete from nota where id_profesor= '$id'");   
+ $delete = self::$db->getRow("Delete from nota where id_nota= '$id'");   
    return 1;          
   }
 
