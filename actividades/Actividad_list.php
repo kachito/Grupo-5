@@ -115,7 +115,7 @@ include_once("ActividadCollector.php");
    </section>
 ************************ IFRAME centro **************************************************************-->
 <header>
-    <h1>Mantenimiento Docente</h1>
+    <h1>Mantenimiento Actividades</h1>
 </header>
 <br/>
 <br/>
