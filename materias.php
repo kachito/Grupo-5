@@ -46,7 +46,7 @@
 
 
 				<!-- *************************************  boton retorna a index ********************************** -->
-				<a href="home.html" >   <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Return</button> </a>
+				<a href="home.php" >   <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Return</button> </a>
 
 
 				<!-- *******************************************Portfotlio*************************************************** -->
