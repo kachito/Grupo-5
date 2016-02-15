@@ -43,8 +43,6 @@ session_start();
     <script src="js/ie-emulation-modes-warning.js"></script>
 
 
-    <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
 
 
 </head>
