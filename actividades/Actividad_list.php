@@ -78,7 +78,7 @@ include_once("ActividadCollector.php");
                 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="../home.html">Home</a></li>
+                        <li class="active"><a href="../home.php">Home</a></li>
                         <li><a href="../about-us.html">About Us</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Diario Virtual <i class="fa fa-angle-down"></i></a>
