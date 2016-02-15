@@ -224,7 +224,7 @@ include_once("DocenteCollector.php");
             <div class="row">
                 <div class="col-md-5 col-sm-6">
                     <div class="widget">
-                        <h3><a href="../Actividad_list.php">Actividades académicas</a></h3>
+                        <h3><a href="../actividades/Actividad_list.php">Actividades académicas</a></h3>
                     </div>    
                 </div><!--/.col-md-3-->
 
