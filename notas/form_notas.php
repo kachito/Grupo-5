@@ -99,7 +99,7 @@
 
 
                             <ul class="dropdown-menu">
-                                <li><a href="../materias.php">Materia</a></li>                                
+                                <li><a href="../construccion.php">Materia</a></li>                                
                             
                             </ul>
 
@@ -117,9 +117,9 @@
 
                         <li><a href="../costruccion.html" class="dropdown-toggle" data-toggle="dropdown">Planificaciones <i class="fa fa-angle-down"></i></a>
                              <ul class="dropdown-menu">
-                                <li><a href="docente/form_docente.php">Docente</a></li>                                
+                                <li><a href="../docente/form_docente.php">Docente</a></li>                                
                                <!-- <li><a href="construccion.html">Alumnos</a></li> -->
-                               <li><a href="../form_Actividad.php">Actividades</a></li>
+                               <li><a href="../actividades/form_Actividad.php">Actividades</a></li>
                                <li><a href="../curso1/form_Curso.php">Cursos</a></li>
                                <li><a href="../notas/form_notas.php">Notas</a></li>
                             </ul>
